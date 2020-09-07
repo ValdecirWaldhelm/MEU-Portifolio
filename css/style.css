@@ -96,7 +96,8 @@ body,html{
 }
 
 .descricao a{
-    color: blue;
+    text-decoration: none;
+    color: rgb(39, 24, 179);
 }
 
 .descricao p{
@@ -110,18 +111,19 @@ body,html{
 .social{
     box-sizing: border-box;
     padding: 5px;
-        clear: both;
-        text-align: left; 
-        width: auto;
-        height: 200px;
-        word-spacing: -30px;
+    clear: both;
+    text-align: left; 
+    width: auto;
+    height: 200px;
+    word-spacing: -30px;
     
 }
 
 .social .face{
     position: relative;
     left: 50px;
-    top: -20px;
+    top: -30px;
+    margin-left: -30px;
 
 }
 
@@ -129,6 +131,7 @@ body,html{
     position: relative;
     left: 50px;
     top: -20px;
+    margin-left: -26px;
 
 }
 
@@ -136,11 +139,16 @@ body,html{
     position: relative;
     left: 75px;
     top: -15px;
+    margin-left: -65px;
 
 }
 
-.linked{
-    margin-left: -40px;
+.social .github{
+    position: relative;
+    left: 65px;
+    top: -35px;
+    margin-left: -20px;
+
 }
 
 .social a{
@@ -176,7 +184,7 @@ body,html{
    .sidebarimg{
        top: -130px;
        position: absolute;
-       width: 23%;
+       width: 25%;
    }
     .descricao{
         width: 100%;

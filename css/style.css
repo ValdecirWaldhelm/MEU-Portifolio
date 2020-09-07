@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    width: 100%;
+}
+
+@font-face{
+    font-family: "Oswald";
+    src: url("../fonts/Oswald-ExtraLight.ttf") format("trutype");
+}
+
+@font-face{
+    font-family: "Oswald2";
+    src: url("../fonts/Oswald-SemiBold.ttf") format("trutype");
+}
+.page{
+    display: flex;
+}
+.sidebar{
+    width: 20%;
+    height: 665px;
+    background-color: rgb(17, 14, 168);
+    border-right: 5px solid rgb(102, 96, 96);
+    overflow: hidden;
+    text-align: center;
+    overflow-y: hidden;
+}
+
+.menu{
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+.menu a{
+    display: block;
+    padding-top: 20px;
+    color: snow;
+    font-family: "fontHappy", sans-serif;
+    font-style: italic;
+    text-shadow: 2px 2px black;
+    font-size: 25px;
+}
+
+.descricao{
+    position: relative;
+    margin-top: 15%;
+    width: 70%;
+    background-color: rgb(255, 255, 255);
+   
+
+}
+
+.sidebarimg img{
+    margin-top: 150px;
+    border: 7px solid rgba(37, 192, 197, 0.671);
+    border-radius: 50%;
+    width: 70%;
+    background-size: contain;
+    
+}
+
+.sidebar a:hover, .descricao a:hover{
+    color: orangered;
+}
+
+.descricao h1{
+    margin-left: 30px;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 7px rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-family: 'Oswald2', sans-serif;
+
+}
+
+.descricao h1 span{
+    color: rgb(39, 24, 179);
+    text-shadow: 2px 2px black;
+}
+
+.descricao h2{
+    margin-left: 30px;
+    margin-bottom: 50px;
+    color: rgb(75, 74, 74);
+    font-size: 23px;
+    font-style: italic;
+    font-family: 'Oswald2', sans-serif;
+}
+
+.descricao h2 span{
+    color: rgb(39, 24, 179);
+    text-shadow: 1px 1px black;
+}
+
+.descricao a{
+    color: blue;
+}
+
+.descricao p{
+    margin-left: 30px;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(102, 96, 96);
+    
+}
+
+.social{
+    box-sizing: border-box;
+    padding: 5px;
+        clear: both;
+        text-align: left; 
+        width: auto;
+        height: 200px;
+        word-spacing: -30px;
+    
+}
+
+.social .face{
+    position: relative;
+    left: 50px;
+    top: -20px;
+
+}
+
+.social .insta{
+    position: relative;
+    left: 50px;
+    top: -20px;
+
+}
+
+.social .linked{
+    position: relative;
+    left: 75px;
+    top: -15px;
+
+}
+
+.linked{
+    margin-left: -40px;
+}
+
+.social a{
+    font-family: 'Oswald2' sans-serif;
+    font-size: 20px;
+    color: black;
+    font-style: italic;
+    text-decoration: none;
+}
+
+ @media screen and (max-width: 780px){ 
+   .page{
+       display: inherit;
+   }
+
+   .sidebar{
+       width: inherit;
+       height: 100px;
+       border: inherit;
+       border-bottom: 5px solid rgb(102, 96, 96);
+   }
+
+   .menu a{
+       display: inline-block;
+       padding: 1% 1%;
+   }
+
+   .menu{
+       text-align: right;
+       padding: 1% 2%;
+   }
+
+   .sidebarimg{
+       top: -130px;
+       position: absolute;
+       width: 23%;
+   }
+    .descricao{
+        width: 100%;
+        height: 600px;
+        padding: 1% 1%;
+
+    }
+
+    .social{
+        max-width: 100%;
+        width: 33,3%;
+        display: block;
+        margin: -4px;
+    }
+
+
+}

@@ -5,6 +5,17 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <style>
+
+@font-face{
+    font-family: "Oswald";
+    src: url("../fonts/Oswald-ExtraLight.ttf") format("trutype");
+}
+
+@font-face{
+    font-family: "Oswald2";
+    src: url("../fonts/Oswald-SemiBold.ttf") format("trutype");
+}
+
         body{
             width: 100%;
             height: auto;
@@ -30,20 +41,32 @@
             width: 60%;
             position: absolute;
             left: 20%;
-            top: 60%;
+            top: 40%;
         }
 
         #digi{
             width: 70%;
             position: absolute;
             left: 20%;
-            top: 150%;
+            top: 120%;
             opacity: 0.4;
+        }
+
+        @media screen and (max-width: 820px){
+            #dankic{
+                top: 50%;
+            }
+            #digi{
+                top: 140%;
+            }
         }
 
         p{
             padding-left: 20px;
-			text-align: justify;
+            text-align: auto;
+            font-size: 15px;
+            font-family: 'Oswald', sans-serif;
+            color: rgb(102, 96, 96);
         }
         article h1{
             text-align: center;
@@ -179,6 +202,8 @@
                                 Fundamentos apresentados no curso com Cloud Computing,Principalmente Azure
                             </p>
                         </div>
+                        <br>
+                        <br>
                         <a href="index.html">
                         <img src="imagem/voltar.png" id="volt">
                         </a>

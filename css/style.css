@@ -24,8 +24,9 @@ body,html{
     height: auto;
     background-color: rgb(17, 14, 168);
     overflow: hidden;
-    text-align: center;
     overflow-y: hidden;
+    text-align: center;
+    
 }
 
 .menu{
@@ -49,6 +50,8 @@ body,html{
     margin-top: 15%;
     width: 70%;
     background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    overflow-y: hidden;
 }
 
 .sidebarimg img{
@@ -92,14 +95,16 @@ body,html{
 }
 
 .descricao a{
+    margin-top: 10px;
     text-decoration: none;
-    color: rgb(39, 24, 179);
+    color:rgb(75, 74, 74);
 }
 
 .descricao p{
-    text-align: justify;
+    width: 90%;
+    text-align: auto;
     margin-left: 30px;
-    font-size: 20px;
+    font-size: 15px;
     font-family: 'Oswald', sans-serif;
     color: rgb(102, 96, 96);
     
@@ -146,7 +151,7 @@ body,html{
 .social a{
     font-family: 'Oswald2' sans-serif;
     font-size: 20px;
-    color: black;
+    color: blue;
     font-style: italic;
     text-decoration: none;
 }
@@ -161,6 +166,8 @@ body,html{
        height: 100px;
        border: inherit;
        border-bottom: 5px solid rgb(102, 96, 96);
+       overflow: hidden;
+       overflow-y: hidden;
    }
 
    .menu a{
@@ -180,8 +187,10 @@ body,html{
    }
     .descricao{
         width: 100%;
-        height: 600px;
-        padding: 1% 1%;
+        height: auto;
+        padding: 2% 2%;
+        overflow: hidden;
+        overflow-y: hidden;
     }
 
     .social{

@@ -59,7 +59,6 @@ body,html{
     border: 7px solid  rgba(255, 255, 255, 0.5);
     border-radius: 50%;
     width: 70%;
-    background-size: contain;
 }
 
 .sidebar a:hover, .descricao a:hover{

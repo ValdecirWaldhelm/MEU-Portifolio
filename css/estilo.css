@@ -19,21 +19,21 @@
     box-sizing: border-box;
 }
 
-.voltar{
-    margin-bottom: 20px;
-    width: 10%;
-    height: 70px;
-    background-image: url('../imagem/voltar1.png');
-    background-size: cover;
-}
-
-body{
-    width: 100%;
-    height: auto;
+body{/*nao pode usar 100% resposnsivo*/
     background-image: url('../imagem/tec7.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: 100%;
     background-attachment: fixed;
+}
+
+.voltar{
+    margin-bottom: 20px;
+    width: 20%;
+    height: 80px;
+    background-image: url('../imagem/voltar1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .clear{
@@ -127,7 +127,7 @@ nav li:hover{
     background-image: url('../imagem/luz.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size:  100%;
+    background-size:  cover;
     background-position: 49% 18%;
     clip-path: polygon(0 0, 100% 21%, 100% 68%, 0% 100%);
     
@@ -284,12 +284,14 @@ nav li:hover{
     width: 70%;
     height: auto;
     padding: 0px 20px;
+    font-size: 20px;
 }
 
 .setor-3 #paragrafo-2{
     width: 50%;
     height: auto;
     padding: 20px 30px;
+    font-size: 20px;
 }
 
 .cursos-2{
@@ -334,12 +336,14 @@ nav li:hover{
     width: 50%;
     height: auto;
     padding: 10px 20px;
+    font-size: 20px;
 }
 
 .setor-4 #paragrafo-2{
     width: 70%;
     height: 100px;
     padding: 20px;
+    font-size: 20px;
 }
 
 .cursos-3{
@@ -384,12 +388,14 @@ nav li:hover{
     width: 70%;
     height: auto;
     padding: 20px 20px;
+    font-size: 20px;
 }
 
 .setor-5 #paragrafo-2{
     width: 50%;
     height: auto;
     padding: 20px 20px;
+    font-size: 20px;
 }
 /*termino setores 3,4,5*/
 

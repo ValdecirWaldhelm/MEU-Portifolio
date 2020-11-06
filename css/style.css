@@ -18,15 +18,17 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-body{/*nao pode usar 100% resposnsivo*/
-    background-image: url('../imagem/tec7.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 100%;
-    background-attachment: fixed;
+/* imagem lampada rodape */
+#img-luz{
+    margin: 5px auto;
+    width: 10%;
+    height: 100px;
 }
-
+/* div para limpar */
+.clear{
+    clear: both;
+}
+/* botao voltar final da pagina */
 .voltar{
     margin-bottom: 20px;
     width: 20%;
@@ -36,8 +38,13 @@ body{/*nao pode usar 100% resposnsivo*/
     background-repeat: no-repeat;
 }
 
-.clear{
-    clear: both;
+
+body{/*nao pode usar 100% resposnsivo*/
+    background-image: url('../imagem/tec7.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% auto;
+    background-attachment: fixed;
 }
 
 header{
@@ -96,14 +103,6 @@ nav li:hover{
     
 }
 
-.lista-container{
-    text-align: left;
-    color: black;
-    float: right;
-    padding: 50px;
-    list-style-position: inside;
-}
-
 .lista-container h2{
     color: black;
     font-family: 'times', sans-serif;
@@ -112,6 +111,14 @@ nav li:hover{
     text-shadow: 2px 2px #e0d8ff;
     padding: 10px 20px;
     border-bottom: 4px solid chartreuse;
+}
+
+.lista-container{
+    text-align: left;
+    color: black;
+    float: right;
+    padding: 50px;
+    list-style-position: inside;
 }
 
 .lista-container ul li{
@@ -146,12 +153,6 @@ nav li:hover{
     border-radius: 50%;
     border: 2px solid grey;
     
-}
-
-#img-luz{
-    margin: 5px auto;
-    width: 10%;
-    height: 100px;
 }
 
 .setor-1{
@@ -193,16 +194,12 @@ nav li:hover{
 #experiencia{
     width: 100%;
     height: auto;
-    clip-path: polygon(0 39%, 100% 10%, 100% 100%, 0% 100%);
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
     background-color: white;
 }
 
 .setor-2{
-    text-align: left;
-    display: inline-block;
-    padding-bottom: 20px;
-    margin-top: 200px;
-    margin-left: 400px;
+    padding: 50px 50px 50px 10px;
 }
 
 .setor-2 h1{
@@ -221,7 +218,7 @@ nav li:hover{
 }
 
 .setor-2 p{
-    width: 100%;
+    width: 90%;
     height: auto;
     padding: 10px 20px;
     color: black;
@@ -243,7 +240,6 @@ nav li:hover{
 
 .setor-3{
     text-align: left;
-    display: inline-block;
     padding-top: 20px;
 }
 
@@ -293,7 +289,9 @@ nav li:hover{
     padding: 20px 30px;
     font-size: 20px;
 }
+/* termino setor-3 */
 
+/* inicio setor-4 */
 .cursos-2{
     width: 100%;
     height: auto;
@@ -301,9 +299,9 @@ nav li:hover{
     clip-path: polygon(0 0, 50% 0%, 100% 100%, 0% 100%);
 
 }
+
 .setor-4{
     text-align: left;
-    display: inline-block;
     padding-top: 20px;
 }
 
@@ -345,7 +343,9 @@ nav li:hover{
     padding: 20px;
     font-size: 20px;
 }
+/* termino setor-4 */
 
+/* inicio setor-5 */
 .cursos-3{
     width: 100%;
     height: auto;
@@ -397,17 +397,16 @@ nav li:hover{
     padding: 20px 20px;
     font-size: 20px;
 }
-/*termino setores 3,4,5*/
+/*termino setor-5*/
 
-/* setor contato*/
+/* inicio setor contato*/
 #contato{
     width: 100%;
     height: auto;
     display: flex;
     align-items: center;
-    vertical-align: center;
-
 }
+
 /*formulario*/
 .formulario{
     width: 50%;
@@ -424,14 +423,15 @@ form{
     border-radius: 5%;
     background-color: rgba(255, 255, 255, 0.212);
     padding: 20px;
-
 }
+
 .formulario h2{
     font-size: 35px;
     color: white;
     text-shadow: 2px 2px 10px white;
     padding-bottom: 15px;
 }
+
 .formulario legend{
     font-size: 25px;
     color: white;
@@ -491,7 +491,6 @@ input[type=submit]{
     width: 40%;
     padding: 20px;
 }
-
 .item img{
     width: 40%;
     
@@ -516,6 +515,7 @@ input[type=submit]{
     text-shadow: 2px 2px 10px white;
 }
 /* final redessociais*/
+
 
 footer{
     background-color: black;

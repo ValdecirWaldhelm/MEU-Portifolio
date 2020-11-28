@@ -1,234 +1,59 @@
-@media screen and (max-width: 1250px){
-    nav ul li{
-        padding-right: 20px;
-      
-    }
+@media screen and (max-width: 1120px){
     .header-img{
-        margin-left: 100px;
+        max-width: 300px;
     }
+}
+
+
+@media screen and (max-width: 910px){
+
+    .navegacao .desktop{
+        width: 100%;
+        min-width: 70%;
+        
+    }
+    .navegacao .desktop nav ul li{
+        font-size: 18px;
+    }
+
 }
 
 @media screen and (max-width: 790px){
-    .header-img{
-        width: 17%;
-        height: 80px;
-        margin-top: 5px;
-        margin-left: 10px;
-    }
-    .lista-container{
-        padding: 10px;
-        list-style-position: inside;
-    }
-    .lista-container h2{
-        font-size: 30px;
-        padding-top: 100px;
-    }
-    .lista-container ul li{
-        padding-top: 10px;
-        font-size: 16px;
-    }
-    .sobre-img{
-        margin: 0px;
-        width: 30%;
-        border-radius: 60%;
-        margin: 30px 0px 0px 50px;
-        min-width: 10%;
-        height: 120px;
-        min-height: 120px;
-    }
-    #sobre{
-        background-position: 49% 0%;
-    }
-    .setor-1 h1{  
-        font-size: 30px;
-        padding-bottom: 6px;
-        margin-bottom: 1px;
-    }
-    .setor-1 p{
-        margin: 0 auto;
-        text-align: left;
-        width: 100%;
-        height: auto;
-        font-size: 16px;
-        padding-bottom: 10px;
-    }
-}
-
-@media screen and (max-width: 690px){
-    .header-img{
-        border: 4px solid grey;
-        float: none;
-        width: 27%;
-        height: 80px;
-        margin: 0px;
+    
+    .desktop{
         display: none;
     }
-    .navegacao{
-        border-bottom: 4px solid chartreuse;
-        background-image: url('../imagem/developer-1.png');
-        background-size: contain;
-        background-repeat: no-repeat;
+
+    .icon-menu{
+        display: block;
     }
-    .navegacao nav ul{
-        padding: 10px;
-        display: inline-block;
-        border: 0; 
-    }
-    nav ul li{
-        font-size: 15px;
-        display: in-block; 
-        padding: 10px;
-    }
-    .lista-container{
-        padding: 10px;
-    }
-    .lista-container h2{
-        font-size: 20px;
-        padding-top: 100px;
-    }
-    .lista-container ul li{
-        padding-top: 10px;
-        font-size: 14px;
-    }
-    .sobre-img{
-        margin: 0px;
-        width: 30%;
-        border-radius: 60%;
-        margin: 30px 0px 0px 50px;
-        min-width: 10%;
-        height: 120px;
-        min-height: 120px;
-    }
-    /* setor-1-responsivo */
-    #sobre{
-        background-position: 49% 0%;
-    }
-    .setor-1 h1{  
-        font-size: 30px;
-        padding-bottom: 6px;
-        margin-bottom: 1px;
-    }
-    .setor-1 p{
-        margin: 0 auto;
-        text-align: left;
-        width: 100%;
-        height: auto;
-        font-size: 16px;
-        padding: 10px;
-    }
-    /* setor-2-responsivo */
-    .setor-2{
-        padding: 10px 5px;
-    }
-    .setor-2 h1{
-        font-size: 30px;
-    }
-    .setor-2 span{
-        font-size: 20px;
-    }
-    .setor-2 p{
-        font-size: 16px;
-    }
-    /* setor-3-responsivo */
-    .setor-3 h1{
-        font-size: 30px;
-    }
-    .setor-3 h2{
-        font-size: 20px;
-    }
-    .setor-3 span{
-        font-size: 20px;
-    }
-    .setor-3 p{
-        font-size: 16px;
-    }
-    .setor-3 #paragrafo{
-        font-size: 16px;
-    }
-    .setor-3 #paragrafo-2{
-        font-size: 16px;
-    }
-    /* setor-4-responsivo */
-    .setor-4{
-        text-align: left;
-        display: inline-block;
-        padding: 15px 10px 0px 0px;
-    }
-    .setor-4 h1{
-        font-size: 28px;
-    }
-    .setor-4 h2{
-        font-size: 20px;
-    }
-    .setor-4 span{
-        font-size: 20px;
-    }
-    .setor-4 p{
-        font-size: 16px;
-    }
-    .setor-4 #paragrafo{
-        font-size: 16px;
-    }
-    .setor-4 #paragrafo-2{
-        font-size: 16px;
-    }
-    /* setor-5-responsivo */
-    .setor-5{
-        text-align: left;
-        display: inline-block;
-        padding: 15px 10px 15px 0px;
-    }
-    .setor-5 h1{
-        font-size: 28px;
-    }
-    .setor-5 h2{
-        font-size: 20px;
-    }
-    .setor-5 span{
-        font-size: 20px;
-    }
-    .setor-5 p{
-        font-size: 16px;
-    }
-    .setor-5 #paragrafo{
-        font-size: 16px;
-    }
-    .setor-5 #paragrafo-2{
-        font-size: 16px;
-    }
-    /* inicio contato e social */
+
     #contato{
         width: 100%;
-        display: block;
-        padding: 10px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
+
     .formulario{
         width: 100%;
-        padding: 30px;
-        margin: 0 auto;
+        
     }
     .redessociais{
-        display: block;
         width: 100%;
-        margin: 0px;
+        
     }
-    /* termino contato e social */
-}
 
-@media screen and (max-width: 370px){
-    .sobre-img{
-        margin: 0px;
-        width: 30%;
-        border-radius: 60%;
-        margin: 30px 0px 0px 50px;
-        min-width: 10%;
-        height: 120px;
-        min-height: 120px;
-    }
-    #sobre{
-        background-position: 49% 0%;
-        padding: 5px;
+    .item{
+        display: inline-block;
+        width: 40%;
+        text-align: center;
     }
     
+    .item img{
+        width: 80%;
+        
+    }
     
 }

@@ -1,59 +1,30 @@
-@media screen and (max-width: 1120px){
-    .header-img{
-        max-width: 300px;
-    }
+@media sreen and (max-width: 1250px){
+
 }
-
-
-@media screen and (max-width: 910px){
-
-    .navegacao .desktop{
-        width: 100%;
-        min-width: 70%;
-        
-    }
-    .navegacao .desktop nav ul li{
-        font-size: 18px;
-    }
+@media screen and (max-width: 980px){
+  
 
 }
 
-@media screen and (max-width: 790px){
-    
+@media screen and (max-width: 760px){
+
     .desktop{
         display: none;
     }
-
-    .icon-menu{
+    
+    .btn-menu{
         display: block;
+
     }
 
-    #contato{
-        width: 100%;
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .formulario{
-        width: 100%;
-        
-    }
-    .redessociais{
-        width: 100%;
-        
-    }
-
-    .item{
-        display: inline-block;
-        width: 40%;
+    .menu-mobile .menu-topo{
         text-align: center;
     }
+
+}
+
+@media screen and (max-width: 620px){
     
-    .item img{
-        width: 80%;
-        
-    }
+
     
 }

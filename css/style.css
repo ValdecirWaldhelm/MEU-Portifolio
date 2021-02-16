@@ -1,30 +1,15 @@
 
-@font-face{
-    font-family: "Caviar";
-    src: url("../fonts/CaviarDreams.ttf") format("trutype");
-}
-
-@font-face{
-    font-family: "Caviaritalic";
-    src: url("../fonts/CaviarDreams_Italic.ttf") format("truetype");
-}
-
-/* GRADE DE CORES 
-
-    color: #0b0c10; BLACK
-    color: #1f2833; GREY DARK
-    color: #c5c6c7; GREY
-    color: #66fcf1; AQUA
-    color: #45a29e; AQUA DARK
-     border-bottom: 4px solid chartreuse;
-*/
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #0b0c10;
+    
 }
+
+body{
+    /* background-color: black; */
+}
+
 /* imagem lampada rodape */
 #img-luz{
     margin: 5px auto;
@@ -46,6 +31,7 @@
 
 /* navegação menu socials */
 .menu-topo{
+    background-color: #0b0c10;
     text-align: left;
     width: 100%;
     padding: 20px;
@@ -69,10 +55,11 @@ header .menu{
 
 .navegacao{
     width: 100%;
-    height: 600px;
+    height: 650px;
     background-image: url('../media/Lightning.gif');
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .menu .navegacao{
@@ -84,24 +71,25 @@ header .menu{
 
 /* Logo img */
 .menu-logo{
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
-    border: 3px solid aqua;
+    width: 130px;
+    height: 130px;
+    border-radius: 65px;
+    border: 4px solid aqua;
+    color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
-    color: white;
+    margin-top: 20px;
     
 }
 
 .menu-logo span{
-    font-size: 20px;
+    font-size: 32px;
+    line-height: 0.9;
 }
 
 .menu-logo span:nth-child(2){
-    font-size: 40px
+    font-size: 70px
 }
 
 /*navegacao desktop*/
@@ -145,24 +133,23 @@ header .menu{
 
 .btn-menu{
     display: none;
-    width: 60px;
+    width: 50px;
     height: 50px; 
-    border-radius: 30px;
-    background-color: #1f2833;
     position: absolute;
     right: 15px;
-    top: 25px;
-    padding: 10px;
+    top: 15px;
+    padding: 2px;
     cursor: pointer;
     transition-duration: 0.3s;
     -webkit-transition-duration: 0.3s; 
     -moz-transition-duration: 0.3s;
 }
 
-.btn-menu span {
+.btn-menu span {   
+    background: linear-gradient(to left, aqua 50%, #1f2833, grey);
+    margin: 5px auto;
     height: 6px;
     display: block;
-    margin-bottom: 5px;
     background-color: aqua;
     
 }
@@ -182,7 +169,7 @@ header .menu{
   }
 
 .menu-mobile{
-    top: 100px;
+    top: 70px;
     right: 0;
     width:270px;
     height:100%;
@@ -200,7 +187,7 @@ header .menu{
 
 .menu-mobile ul li{
     display: block;
-    font-size: 26px;    
+    font-size: 20px;    
     padding: 10px 0;
     color: white;
 }
@@ -214,6 +201,176 @@ header .menu{
     text-shadow: 2px 2px 5px aqua;
     
 }
-/* termino do menu mobile */
+
+/* Projetos */
+.projetos{
+    background-color: grey;
+}
+
+.container-project{
+    text-align: center;
+    width: 100%;
+    height: 800px;
+}
+
+.container-project h1{
+    font-style: italic;
+    font-size: 65px;
+    padding: 20px 0;
+}
+
+.slider{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 80%;
+    max-height: 700px;
+}
+
+.slider img{
+    position: absolute;
+    max-width: 100%;
+    max-height: 100%;
+    display: none;
+
+}
+
+.bullets-nav{
+    position: relative;
+    top: 30px;
+    z-index: 999;
+}
+
+.bullets-nav span{
+    float: left;
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    border: 2px solid aqua;
+    background-color: black;
+    cursor: pointer;
+    margin: 0 20px;
+}
+
+/* Section Sobre */
+
+.sobre{
+    padding: 100px 0;
+    text-align: center;
+}
+
+.sobre h2{
+    font-style: italic;
+    font-size: 65px;
+    padding-bottom: 20px 0;
+}
+
+.sobre p{
+    font-size: 16px;
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+/* Section Experiencia */
+
+/* Jobs container Principal */
+.experiencia{
+    display: flex;
+    
+}
+
+.navegacao-exp{
+    font-family: 'Benne', serif;
+    color: rgb(177, 177, 177);
+    width: 45%;
+    padding: 100px;
+    background-color: #4a5562;
+    text-transform: uppercase;
+}
+
+.navegacao-exp h2{
+    letter-spacing: 5px;
+    font-size: 22px;
+    font-weight: normal;
+}
+.sub-navegacao{
+    background-color: rgb(93, 187, 0);
+    width: 100px;
+    height: 3px;
+    margin-bottom: 30px;  
+}
+
+.navegacao-exp nav li{
+    display: block;
+   
+}
+.navegacao-exp i{
+    font-size: 35px;
+
+}
+
+.navegacao-exp nav a{
+    color: rgb(177, 177, 177);
+    text-decoration: none;
+    padding: 8px 24px;
+}
+
+
+
+/* Job Container Single */
+.experiencia-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 55%;
+   
+}
+
+.experiencia-box{
+    padding-top: 60px;
+    
+}
+
+.box1,
+.box2,
+.box3,
+.box4,
+.box5,
+.box6{
+    display: none;
+    
+}
+
+.side-left{
+    width: 30%;
+}
+
+.side-left img{
+    width: 100%;
+}
+
+.side-right{
+    padding-left: 50px;
+    width: 70%;
+    height: auto;
+
+}
+
+.side-right h4{
+    padding: 30px 0;
+    font-size: 28px;
+    font-family: 'open sans', sans-serif;
+}
+
+.side-right p{
+    font-size: 18px;
+
+}
+
+.navegacao-exp nav li:hover, nav a:hover{
+    color: white;
+    text-shadow: 1px 1px 5px white;
+}
+
+
 
 
